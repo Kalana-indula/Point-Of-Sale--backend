@@ -1,0 +1,343 @@
+
+/*!*==========================*!*/
+
+.application-body .body-section{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:56px;
+}
+
+/*=========Login Component=======*/
+
+.login-body{
+    margin-top: 10px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px 20px 60px 30px;
+    border-radius: 20px;
+}
+
+.login-body .login-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.login-body .form-text .redirect-text a{
+    text-decoration: none;
+}
+
+/*===============================*/
+
+/*==========Register User========*/
+
+.register-body{
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 20px 20px 60px 30px;
+    border-radius: 20px;
+}
+
+.register-body .register-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+/*==============================*/
+
+/*========Add Item==============*/
+
+.add-item-body{
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 20px 20px 60px 30px;
+    border-radius: 20px;
+}
+
+.add-item-body .add-item-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+/*==============================*/
+
+/*=========Update Item===========*/
+
+.update-item-body{
+    margin-top:10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.update-item-body .update-item-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.update-item-body .button-section{
+    margin-top: 20px;
+}
+
+/*================================*/
+
+/*=========Delete Item=============*/
+
+.delete-item-body{
+    margin-top:10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.delete-item-body .delete-item-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.delete-item-body .delete-item-details{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*================================*/
+/*==========Update Stock=========*/
+
+.update-stock-body{
+    margin-top:10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.update-stock-body .update-stock-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.update-stock-body .update-stock-details{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*===============================*/
+
+/*===============Add Category===========*/
+
+.add-category-body{
+    margin-top:10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.add-category-body .add-category-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.add-category-body .button-section{
+    margin-top:20px;
+}
+
+/*====================================*/
+
+/*============Update Category=======*/
+
+.update-category-body{
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.update-category-body .button-section{
+    margin-top: 20px;
+}
+
+.update-category-body .update-category-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+/*=================================*/
+
+/*==========Delete category=========*/
+
+.delete-category-body{
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 60px 30px;
+}
+
+.delete-category-body .button-section{
+    margin-top: 20px;
+}
+
+.delete-category-body .delete-category-title{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+/*=================================*/
+
+/*===========Home=========*/
+
+.home .timely-stats{
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 30px 30px;
+}
+.home .timely-stats .date label{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.home .timely-stats .current-date{
+    height: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.home .timely-stats .time label{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.home .timely-stats .current-time{
+    height: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home .timely-stats .sales label{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.home .timely-stats .total-sales{
+    height: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home .timely-stats .discount label{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.home .timely-stats .daily-discount{
+    height: 30px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.home .current-order{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 40px 20px;
+}
+
+.home .current-order .button-section{
+    margin-top: 20px;
+}
+
+.home .order-list{
+    margin-top: 10px;
+    margin-bottom:20px ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 40px 20px;
+}
+
+
+
+/*================================*/
+
+/*==========All Items============*/
+
+.item-details{
+    margin-bottom:20px ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 40px 20px;
+}
+
+/*=================================*/
+
+/*=========Actions==================*/
+
+.action-panel .component-card{
+    margin:10px 5px ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding:20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.action-panel .component-card span{
+    text-decoration: none;
+    color: black;
+}
+
+.action-panel .component-card .card-image{
+    width: 100px;
+    height: 100px;
+}
+
+.action-panel .component-card:hover{
+    background-color: #e1e1e1;
+}
+
+.action-panel .component-card:active{
+    background-color: #a6a6a6;
+}
+
+/*=================================*/
+
+/*========Nav link=================*/
+
+.dropdown-menu .nav-link {
+    color: #343a40;
+}
+
+/*================================*/
