@@ -16,3 +16,16 @@ Any user can make an order by adding list of serial numbers of preferred items. 
 In here authentication features has been added , using **Spring Security**
 
 Following images shows the appearance of the UI of the app. UI was designed using **react** .
+
+![image](https://github.com/user-attachments/assets/f5e1455f-b074-45f0-93af-5f2b479aad8d)
+
+![image](https://github.com/user-attachments/assets/3ee2e0b9-534c-495f-b616-1e741f51141b)
+
+![image](https://github.com/user-attachments/assets/ccb17955-c9b7-43f5-87f8-81c37a75bf23)
+
+![image](https://github.com/user-attachments/assets/b38372e6-a614-4a57-9b29-9c6680b6132e)
+
+
+
+
+
