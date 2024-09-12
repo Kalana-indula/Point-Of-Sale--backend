@@ -20,7 +20,8 @@ const Home = () => {
     const [date, setDate] = useState('');
     const [time, setTime] = useState('');
     const [dailySales, setDailySales] = useState('');
-    const [dailyDiscount, setDailyDiscount] = useState('');
+    const [currentSalesValue, setCurrentSalesValue] = useState('');
+    const [currentAverage,setCurrentAverage]=useState('');
 
     //Fetching and formatting date and time
     const updateDateTime = () => {
@@ -29,12 +30,24 @@ const Home = () => {
         setTime(now.toLocaleTimeString());
     }
 
+
     //Get current day order count
     const getCurrentDayOrders=async ()=>{
         try{
             const response=await axios.get(`http://localhost:8080/orders/today`);
             setDailySales(response.data);
             console.log(dailySales);
+        }catch (error){
+            console.log(error.message);
+        }
+    }
+
+    //Getting daily sales average
+    const getSalesValue=async ()=>{
+        try{
+            const response=await axios.get(`http://localhost:8080/sales/today`);
+            setCurrentSalesValue(response.data);
+
         }catch (error){
             console.log(error.message);
         }
@@ -117,6 +130,12 @@ const Home = () => {
             getCurrentDayOrders();
             getAllLastOrders();
 
+            //Delay fetching current sales value to backend to update
+            setTimeout(()=>{
+                getSalesValue();
+            },500)
+
+
         } catch (er) {
             console.log(er.message);
         }
@@ -160,12 +179,20 @@ const Home = () => {
         setItemIds([]);
     }
 
+    useEffect(() => {
+        if(dailySales && currentSalesValue){
+            setCurrentAverage((currentSalesValue/dailySales).toFixed(2));
+        }else{
+            setCurrentAverage(0);
+        }
+    }, [dailySales,currentSalesValue]);
 
     //Loading order details at page load
     useEffect(() => {
         getAllLastOrders();
         updateDateTime();
         getCurrentDayOrders();
+        getSalesValue();
 
         //Update date and time as the page is being displayed
         const intervalId = setInterval(updateDateTime, 1000);
@@ -212,9 +239,9 @@ const Home = () => {
                                                             </div>
                                                         </div>
                                                         <div className="discount">
-                                                            <div><label>Daily Discount :</label></div>
+                                                            <div><label>Average Sales :</label></div>
                                                             <div className="daily-discount">
-
+                                                                {currentAverage} LKR
                                                             </div>
                                                         </div>
                                                     </div>
