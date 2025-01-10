@@ -1,4 +1,6 @@
 # About the app
+## Below link shows how the UI functions with user interactions
+https://www.youtube.com/watch?v=tzeFW5clsJo
 
 This is a Point Of Sale (POS) system created using **springboot** and  **react**. In which, a user is capable of adding item into the cart by entering its serial number. Serial number is a unique string which is provided to an item which belongs to a specific item category. 
 
